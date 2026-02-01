@@ -6,7 +6,7 @@ import os
 # ==================================================
 # CONFIG
 # ==================================================
-st.set_page_config(page_title="Telehealth App", layout="wide")
+st.set_page_config(page_title="Telehealth App", layout="wide")  
 HISTORY_FILE = "patient_history.csv"
 
 # ==================================================
@@ -169,4 +169,5 @@ with tab3:
 # FOOTER
 # ==================================================
 st.caption("Educational Telehealth Application — Kaggle Dataset Based")
+
 
